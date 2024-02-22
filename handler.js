@@ -546,8 +546,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
-                  ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
+                  pp = 'https://i.imgur.com/ev5Hzot.jpeg'; // Assign default image URL
+                  ppgp = 'https://i.imgur.com/ev5Hzot.jpeg'; // Assign default image URL
                 } finally {
                   let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
                     .replace('@group', await this.getName(id))
@@ -576,10 +576,10 @@ export async function participantsUpdate({
                         contextInfo: {
                         mentionedJid: [user],
                         externalAdReply: {
-                        title: "ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ",
+                        title: "𓏸⃘ ۫    ˖  𖥔   ׄ _*𝐓a͟e͟h͟y͟u͟n͟ɢ*_ ׅ   ׄ𓆇  🌷 ︵۫͟  𓈒ׄ",
                         body: "welcome to Group",
                         thumbnailUrl: welcomeApiUrl,
-                        sourceUrl: 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA',
+                        sourceUrl: 'https://chat.whatsapp.com/ECKdwWoAb5jAu6UmncUL2s',
                         mediaType: 1,
                         renderLargerThumbnail: true
                         }}})
@@ -601,8 +601,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
-                  ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
+                  pp = 'https://i.imgur.com/ev5Hzot.jpeg'; // Assign default image URL
+                  ppgp = 'https://i.imgur.com/ev5Hzot.jpeg'; // Assign default image URL
                 } finally {
                   let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
                     .replace('@user', '@' + user.split('@')[0]);
@@ -629,10 +629,10 @@ export async function participantsUpdate({
                         contextInfo: {
                         mentionedJid: [user],
                         externalAdReply: {
-                        title: "ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ",
+                        title: "𓏸⃘ ۫    ˖  𖥔   ׄ _*𝐓a͟e͟h͟y͟u͟n͟ɢ*_ ׅ   ׄ𓆇  🌷 ︵۫͟  𓈒ׄ",
                         body: "Goodbye from  Group",
                         thumbnailUrl: leaveApiUrl,
-                        sourceUrl: 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA',
+                        sourceUrl: 'https://chat.whatsapp.com/ECKdwWoAb5jAu6UmncUL2s',
                         mediaType: 1,
                         renderLargerThumbnail: true
                         }}})
